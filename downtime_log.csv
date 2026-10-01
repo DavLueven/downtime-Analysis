@@ -1,0 +1,622 @@
+event_id,machine,line,start_time,shift,cause,duration_min
+1,Press 2,Stamping,2026-06-01 07:02,1st,Pneumatic leak,33
+2,Press 2,Stamping,2026-06-01 20:28,2nd,Jam,23
+3,CNC 2,Machining,2026-06-01 03:17,3rd,Jam,9
+4,CNC 1,Machining,2026-06-01 23:22,3rd,Sensor failure,37
+5,CNC 2,Machining,2026-06-01 23:35,3rd,Preventive maintenance,78
+6,Conveyor A,Assembly,2026-06-01 17:05,2nd,Material shortage,49
+7,Press 2,Stamping,2026-06-01 19:13,2nd,Preventive maintenance,102
+8,CNC 2,Machining,2026-06-01 01:10,3rd,Preventive maintenance,89
+9,Welder 1,Assembly,2026-06-01 09:14,1st,Operator error,6
+10,Welder 1,Assembly,2026-06-02 11:25,1st,Jam,25
+11,Packager,Packaging,2026-06-02 10:23,1st,Jam,12
+12,Press 3,Stamping,2026-06-02 15:40,2nd,Jam,10
+13,Welder 1,Assembly,2026-06-02 18:43,2nd,Electrical fault,74
+14,CNC 2,Machining,2026-06-02 00:29,3rd,Sensor failure,15
+15,CNC 2,Machining,2026-06-02 01:09,3rd,Operator error,16
+16,Press 1,Stamping,2026-06-03 19:15,2nd,Sensor failure,18
+17,CNC 1,Machining,2026-06-03 23:48,3rd,Operator error,22
+18,Press 3,Stamping,2026-06-03 08:13,1st,Sensor failure,49
+19,CNC 1,Machining,2026-06-03 05:07,3rd,Tool change,17
+20,CNC 1,Machining,2026-06-03 09:04,1st,Jam,25
+21,CNC 1,Machining,2026-06-04 11:17,1st,Jam,20
+22,CNC 1,Machining,2026-06-04 17:51,2nd,Material shortage,72
+23,CNC 1,Machining,2026-06-04 11:29,1st,Tool change,11
+24,Press 2,Stamping,2026-06-04 01:12,3rd,Operator error,22
+25,Press 3,Stamping,2026-06-05 15:51,2nd,Pneumatic leak,100
+26,Press 2,Stamping,2026-06-05 00:26,3rd,Operator error,20
+27,Packager,Packaging,2026-06-05 06:00,1st,Jam,17
+28,CNC 2,Machining,2026-06-05 05:09,3rd,Operator error,11
+29,CNC 2,Machining,2026-06-05 06:03,1st,Jam,23
+30,Packager,Packaging,2026-06-05 14:54,2nd,Preventive maintenance,71
+31,Press 2,Stamping,2026-06-05 17:39,2nd,Pneumatic leak,40
+32,Conveyor A,Assembly,2026-06-06 02:25,3rd,Pneumatic leak,46
+33,CNC 2,Machining,2026-06-06 14:39,2nd,Operator error,23
+34,Press 2,Stamping,2026-06-06 11:23,1st,Pneumatic leak,66
+35,Press 3,Stamping,2026-06-06 14:59,2nd,Tool change,13
+36,Press 3,Stamping,2026-06-06 08:38,1st,Operator error,11
+37,Conveyor A,Assembly,2026-06-06 10:57,1st,Tool change,11
+38,Press 2,Stamping,2026-06-06 02:10,3rd,Jam,19
+39,Welder 1,Assembly,2026-06-07 14:37,2nd,Jam,22
+40,Press 3,Stamping,2026-06-07 14:13,2nd,Jam,12
+41,Press 2,Stamping,2026-06-07 17:51,2nd,Preventive maintenance,111
+42,Press 3,Stamping,2026-06-07 01:17,3rd,Jam,10
+43,Press 2,Stamping,2026-06-07 09:19,1st,Pneumatic leak,59
+44,CNC 1,Machining,2026-06-07 11:49,1st,Jam,13
+45,Conveyor A,Assembly,2026-06-07 14:56,2nd,Electrical fault,111
+46,Press 3,Stamping,2026-06-07 15:22,2nd,Operator error,28
+47,Welder 1,Assembly,2026-06-08 17:02,2nd,Tool change,23
+48,Press 1,Stamping,2026-06-08 19:04,2nd,Preventive maintenance,120
+49,Conveyor A,Assembly,2026-06-08 18:42,2nd,Tool change,23
+50,Conveyor A,Assembly,2026-06-08 17:42,2nd,Pneumatic leak,78
+51,Press 3,Stamping,2026-06-08 18:13,2nd,Pneumatic leak,85
+52,Conveyor A,Assembly,2026-06-08 21:42,2nd,Sensor failure,20
+53,Conveyor A,Assembly,2026-06-09 09:51,1st,Operator error,11
+54,Press 3,Stamping,2026-06-09 13:26,1st,Pneumatic leak,110
+55,CNC 1,Machining,2026-06-09 00:41,3rd,Tool change,10
+56,Press 2,Stamping,2026-06-09 13:58,1st,Material shortage,35
+57,Packager,Packaging,2026-06-09 11:53,1st,Jam,22
+58,Packager,Packaging,2026-06-09 02:48,3rd,Preventive maintenance,75
+59,CNC 2,Machining,2026-06-10 05:04,3rd,Tool change,19
+60,CNC 1,Machining,2026-06-10 07:14,1st,Electrical fault,143
+61,Press 3,Stamping,2026-06-10 05:26,3rd,Jam,6
+62,CNC 1,Machining,2026-06-10 05:00,3rd,Tool change,21
+63,CNC 2,Machining,2026-06-10 05:14,3rd,Operator error,13
+64,Welder 1,Assembly,2026-06-10 16:58,2nd,Electrical fault,77
+65,Press 1,Stamping,2026-06-10 04:08,3rd,Material shortage,79
+66,Press 3,Stamping,2026-06-10 09:21,1st,Electrical fault,142
+67,CNC 2,Machining,2026-06-10 05:01,3rd,Operator error,28
+68,Press 1,Stamping,2026-06-11 22:15,3rd,Sensor failure,27
+69,Press 1,Stamping,2026-06-11 15:29,2nd,Pneumatic leak,119
+70,CNC 2,Machining,2026-06-11 02:06,3rd,Pneumatic leak,104
+71,Press 1,Stamping,2026-06-11 01:04,3rd,Material shortage,51
+72,Press 2,Stamping,2026-06-11 07:34,1st,Tool change,23
+73,Conveyor A,Assembly,2026-06-11 06:06,1st,Tool change,23
+74,Conveyor A,Assembly,2026-06-11 20:46,2nd,Preventive maintenance,93
+75,CNC 2,Machining,2026-06-11 21:52,2nd,Operator error,28
+76,CNC 2,Machining,2026-06-12 07:15,1st,Pneumatic leak,89
+77,Welder 1,Assembly,2026-06-12 11:13,1st,Tool change,21
+78,CNC 2,Machining,2026-06-12 10:05,1st,Preventive maintenance,75
+79,Welder 1,Assembly,2026-06-12 21:50,2nd,Material shortage,22
+80,Press 2,Stamping,2026-06-12 21:27,2nd,Pneumatic leak,100
+81,Conveyor A,Assembly,2026-06-12 10:07,1st,Sensor failure,27
+82,Conveyor A,Assembly,2026-06-12 08:47,1st,Tool change,25
+83,CNC 2,Machining,2026-06-12 01:18,3rd,Operator error,12
+84,Press 3,Stamping,2026-06-13 08:03,1st,Material shortage,90
+85,CNC 2,Machining,2026-06-13 15:36,2nd,Jam,14
+86,Packager,Packaging,2026-06-13 18:07,2nd,Jam,7
+87,Welder 1,Assembly,2026-06-13 16:51,2nd,Tool change,28
+88,CNC 2,Machining,2026-06-13 12:28,1st,Pneumatic leak,86
+89,CNC 2,Machining,2026-06-13 23:48,3rd,Operator error,11
+90,CNC 1,Machining,2026-06-14 09:10,1st,Jam,5
+91,Welder 1,Assembly,2026-06-14 14:18,2nd,Tool change,19
+92,Packager,Packaging,2026-06-14 10:07,1st,Jam,22
+93,CNC 1,Machining,2026-06-14 15:10,2nd,Operator error,30
+94,CNC 2,Machining,2026-06-14 21:29,2nd,Preventive maintenance,104
+95,CNC 2,Machining,2026-06-14 21:38,2nd,Operator error,6
+96,Welder 1,Assembly,2026-06-14 01:43,3rd,Material shortage,22
+97,CNC 2,Machining,2026-06-14 21:58,2nd,Material shortage,55
+98,Press 3,Stamping,2026-06-14 05:22,3rd,Tool change,23
+99,Conveyor A,Assembly,2026-06-15 20:18,2nd,Preventive maintenance,102
+100,Welder 1,Assembly,2026-06-15 03:16,3rd,Material shortage,61
+101,Press 2,Stamping,2026-06-15 21:03,2nd,Electrical fault,93
+102,Conveyor A,Assembly,2026-06-15 14:17,2nd,Tool change,27
+103,Press 3,Stamping,2026-06-15 22:40,3rd,Tool change,29
+104,CNC 1,Machining,2026-06-15 23:14,3rd,Sensor failure,22
+105,Press 2,Stamping,2026-06-16 10:53,1st,Operator error,20
+106,Packager,Packaging,2026-06-16 12:55,1st,Electrical fault,62
+107,CNC 2,Machining,2026-06-16 22:18,3rd,Operator error,28
+108,CNC 2,Machining,2026-06-16 05:34,3rd,Tool change,25
+109,Conveyor A,Assembly,2026-06-16 12:55,1st,Material shortage,44
+110,CNC 1,Machining,2026-06-16 14:47,2nd,Pneumatic leak,90
+111,Welder 1,Assembly,2026-06-16 08:08,1st,Tool change,26
+112,Conveyor A,Assembly,2026-06-17 05:00,3rd,Operator error,28
+113,Press 3,Stamping,2026-06-17 15:50,2nd,Tool change,18
+114,Conveyor A,Assembly,2026-06-17 19:20,2nd,Electrical fault,169
+115,Press 1,Stamping,2026-06-17 17:27,2nd,Jam,8
+116,Press 2,Stamping,2026-06-17 19:18,2nd,Preventive maintenance,82
+117,Conveyor A,Assembly,2026-06-17 16:11,2nd,Pneumatic leak,40
+118,Welder 1,Assembly,2026-06-17 17:40,2nd,Pneumatic leak,62
+119,Packager,Packaging,2026-06-17 13:04,1st,Jam,19
+120,CNC 2,Machining,2026-06-18 21:12,2nd,Tool change,22
+121,Packager,Packaging,2026-06-18 11:01,1st,Jam,17
+122,CNC 2,Machining,2026-06-18 06:49,1st,Preventive maintenance,111
+123,CNC 1,Machining,2026-06-18 18:40,2nd,Sensor failure,21
+124,Press 1,Stamping,2026-06-18 11:58,1st,Sensor failure,33
+125,Conveyor A,Assembly,2026-06-18 02:53,3rd,Jam,10
+126,Packager,Packaging,2026-06-19 05:04,3rd,Jam,9
+127,CNC 1,Machining,2026-06-19 23:50,3rd,Preventive maintenance,85
+128,Press 1,Stamping,2026-06-19 11:52,1st,Jam,25
+129,Conveyor A,Assembly,2026-06-19 06:41,1st,Jam,7
+130,Packager,Packaging,2026-06-19 00:02,3rd,Jam,6
+131,CNC 2,Machining,2026-06-19 04:29,3rd,Jam,16
+132,Welder 1,Assembly,2026-06-20 15:39,2nd,Material shortage,72
+133,CNC 2,Machining,2026-06-20 13:54,1st,Sensor failure,38
+134,Press 2,Stamping,2026-06-20 11:17,1st,Preventive maintenance,72
+135,Press 2,Stamping,2026-06-20 22:50,3rd,Jam,15
+136,CNC 1,Machining,2026-06-20 01:37,3rd,Operator error,11
+137,CNC 1,Machining,2026-06-20 06:08,1st,Jam,22
+138,CNC 2,Machining,2026-06-20 22:22,3rd,Jam,12
+139,Conveyor A,Assembly,2026-06-20 08:47,1st,Pneumatic leak,38
+140,Packager,Packaging,2026-06-20 21:39,2nd,Jam,6
+141,CNC 2,Machining,2026-06-21 21:27,2nd,Operator error,26
+142,Press 2,Stamping,2026-06-21 00:04,3rd,Jam,9
+143,CNC 2,Machining,2026-06-21 20:29,2nd,Tool change,26
+144,Welder 1,Assembly,2026-06-21 09:56,1st,Material shortage,49
+145,Welder 1,Assembly,2026-06-21 12:27,1st,Sensor failure,35
+146,CNC 2,Machining,2026-06-21 13:53,1st,Jam,7
+147,Press 2,Stamping,2026-06-21 03:42,3rd,Pneumatic leak,45
+148,Welder 1,Assembly,2026-06-21 12:38,1st,Tool change,19
+149,Conveyor A,Assembly,2026-06-21 08:54,1st,Tool change,13
+150,Conveyor A,Assembly,2026-06-22 09:38,1st,Pneumatic leak,114
+151,CNC 2,Machining,2026-06-22 10:00,1st,Pneumatic leak,53
+152,Press 3,Stamping,2026-06-22 14:47,2nd,Sensor failure,48
+153,CNC 1,Machining,2026-06-22 08:46,1st,Tool change,20
+154,Press 2,Stamping,2026-06-22 06:28,1st,Tool change,23
+155,Packager,Packaging,2026-06-22 15:27,2nd,Jam,8
+156,Packager,Packaging,2026-06-23 20:00,2nd,Jam,11
+157,CNC 2,Machining,2026-06-23 03:07,3rd,Operator error,5
+158,Packager,Packaging,2026-06-23 03:04,3rd,Jam,17
+159,Press 1,Stamping,2026-06-23 19:36,2nd,Sensor failure,40
+160,Welder 1,Assembly,2026-06-23 11:53,1st,Sensor failure,59
+161,Conveyor A,Assembly,2026-06-23 09:33,1st,Preventive maintenance,65
+162,CNC 2,Machining,2026-06-24 23:33,3rd,Pneumatic leak,95
+163,CNC 1,Machining,2026-06-24 23:09,3rd,Sensor failure,31
+164,CNC 1,Machining,2026-06-24 07:29,1st,Jam,23
+165,Packager,Packaging,2026-06-24 19:28,2nd,Preventive maintenance,64
+166,Packager,Packaging,2026-06-24 14:32,2nd,Jam,7
+167,CNC 2,Machining,2026-06-24 18:41,2nd,Jam,7
+168,Welder 1,Assembly,2026-06-24 21:20,2nd,Tool change,29
+169,Press 3,Stamping,2026-06-25 00:02,3rd,Tool change,17
+170,Packager,Packaging,2026-06-25 03:58,3rd,Sensor failure,33
+171,Welder 1,Assembly,2026-06-25 19:21,2nd,Electrical fault,69
+172,Welder 1,Assembly,2026-06-25 08:37,1st,Material shortage,38
+173,Conveyor A,Assembly,2026-06-25 12:19,1st,Tool change,27
+174,Welder 1,Assembly,2026-06-25 15:32,2nd,Pneumatic leak,76
+175,Press 1,Stamping,2026-06-25 09:12,1st,Jam,12
+176,Press 3,Stamping,2026-06-26 07:56,1st,Preventive maintenance,109
+177,Press 3,Stamping,2026-06-26 16:02,2nd,Jam,18
+178,Conveyor A,Assembly,2026-06-26 18:14,2nd,Pneumatic leak,98
+179,CNC 1,Machining,2026-06-26 13:43,1st,Preventive maintenance,120
+180,Packager,Packaging,2026-06-26 20:52,2nd,Jam,11
+181,Press 3,Stamping,2026-06-27 23:45,3rd,Jam,21
+182,Press 2,Stamping,2026-06-27 23:58,3rd,Pneumatic leak,58
+183,Packager,Packaging,2026-06-27 04:32,3rd,Operator error,16
+184,CNC 1,Machining,2026-06-27 09:59,1st,Jam,8
+185,Conveyor A,Assembly,2026-06-27 00:48,3rd,Jam,20
+186,Packager,Packaging,2026-06-27 18:53,2nd,Preventive maintenance,69
+187,Welder 1,Assembly,2026-06-27 10:15,1st,Pneumatic leak,83
+188,Packager,Packaging,2026-06-27 13:45,1st,Material shortage,38
+189,Welder 1,Assembly,2026-06-28 12:33,1st,Electrical fault,137
+190,Press 2,Stamping,2026-06-28 20:02,2nd,Material shortage,69
+191,Conveyor A,Assembly,2026-06-28 07:46,1st,Jam,25
+192,Press 2,Stamping,2026-06-28 03:52,3rd,Pneumatic leak,112
+193,Press 3,Stamping,2026-06-28 00:04,3rd,Preventive maintenance,105
+194,Packager,Packaging,2026-06-28 09:59,1st,Jam,14
+195,Welder 1,Assembly,2026-06-29 01:18,3rd,Material shortage,65
+196,Press 1,Stamping,2026-06-29 04:56,3rd,Sensor failure,40
+197,Packager,Packaging,2026-06-29 05:23,3rd,Jam,21
+198,CNC 2,Machining,2026-06-29 00:34,3rd,Preventive maintenance,78
+199,Conveyor A,Assembly,2026-06-29 10:38,1st,Pneumatic leak,84
+200,Press 3,Stamping,2026-06-29 19:17,2nd,Electrical fault,59
+201,Press 2,Stamping,2026-06-29 14:54,2nd,Electrical fault,157
+202,Press 1,Stamping,2026-06-29 11:36,1st,Pneumatic leak,34
+203,Press 3,Stamping,2026-06-30 21:36,2nd,Operator error,9
+204,Conveyor A,Assembly,2026-06-30 09:47,1st,Tool change,15
+205,Packager,Packaging,2026-06-30 18:45,2nd,Preventive maintenance,88
+206,CNC 1,Machining,2026-06-30 23:08,3rd,Sensor failure,19
+207,Packager,Packaging,2026-06-30 07:45,1st,Tool change,12
+208,CNC 2,Machining,2026-06-30 01:07,3rd,Operator error,11
+209,Press 3,Stamping,2026-06-30 11:51,1st,Sensor failure,50
+210,Press 3,Stamping,2026-06-30 20:33,2nd,Jam,18
+211,Press 2,Stamping,2026-07-01 13:56,1st,Jam,22
+212,Press 3,Stamping,2026-07-01 00:19,3rd,Jam,10
+213,Press 3,Stamping,2026-07-01 11:16,1st,Material shortage,45
+214,CNC 2,Machining,2026-07-01 07:10,1st,Electrical fault,131
+215,Press 1,Stamping,2026-07-01 01:49,3rd,Jam,23
+216,Welder 1,Assembly,2026-07-01 18:15,2nd,Jam,17
+217,CNC 2,Machining,2026-07-01 21:30,2nd,Tool change,24
+218,Conveyor A,Assembly,2026-07-02 19:08,2nd,Pneumatic leak,77
+219,Press 2,Stamping,2026-07-02 16:03,2nd,Pneumatic leak,67
+220,Welder 1,Assembly,2026-07-02 03:12,3rd,Tool change,15
+221,Packager,Packaging,2026-07-02 22:05,3rd,Pneumatic leak,80
+222,Packager,Packaging,2026-07-02 22:18,3rd,Jam,20
+223,Packager,Packaging,2026-07-03 07:56,1st,Jam,13
+224,Conveyor A,Assembly,2026-07-03 01:23,3rd,Sensor failure,50
+225,CNC 2,Machining,2026-07-03 10:06,1st,Tool change,22
+226,Conveyor A,Assembly,2026-07-03 01:38,3rd,Sensor failure,47
+227,Welder 1,Assembly,2026-07-03 19:33,2nd,Jam,19
+228,Press 3,Stamping,2026-07-03 19:25,2nd,Tool change,29
+229,CNC 2,Machining,2026-07-03 18:52,2nd,Tool change,10
+230,Conveyor A,Assembly,2026-07-03 12:38,1st,Jam,20
+231,CNC 1,Machining,2026-07-04 00:52,3rd,Tool change,17
+232,Press 1,Stamping,2026-07-04 14:20,2nd,Material shortage,73
+233,Press 3,Stamping,2026-07-04 14:33,2nd,Jam,11
+234,Conveyor A,Assembly,2026-07-04 00:29,3rd,Tool change,27
+235,Conveyor A,Assembly,2026-07-04 21:15,2nd,Material shortage,55
+236,CNC 2,Machining,2026-07-04 10:44,1st,Operator error,27
+237,Conveyor A,Assembly,2026-07-05 18:36,2nd,Tool change,27
+238,Welder 1,Assembly,2026-07-05 02:02,3rd,Sensor failure,33
+239,Press 2,Stamping,2026-07-05 17:52,2nd,Pneumatic leak,98
+240,CNC 2,Machining,2026-07-05 01:15,3rd,Preventive maintenance,63
+241,CNC 1,Machining,2026-07-05 19:06,2nd,Jam,9
+242,Press 1,Stamping,2026-07-05 05:30,3rd,Operator error,25
+243,CNC 1,Machining,2026-07-05 23:41,3rd,Sensor failure,51
+244,Press 1,Stamping,2026-07-06 04:50,3rd,Jam,20
+245,Press 3,Stamping,2026-07-06 22:19,3rd,Operator error,23
+246,Press 2,Stamping,2026-07-06 13:17,1st,Pneumatic leak,54
+247,Press 2,Stamping,2026-07-06 03:50,3rd,Tool change,19
+248,CNC 1,Machining,2026-07-06 12:05,1st,Preventive maintenance,85
+249,Press 2,Stamping,2026-07-07 09:24,1st,Pneumatic leak,60
+250,Packager,Packaging,2026-07-07 02:41,3rd,Operator error,16
+251,CNC 1,Machining,2026-07-07 10:43,1st,Jam,21
+252,CNC 2,Machining,2026-07-07 19:14,2nd,Tool change,14
+253,Packager,Packaging,2026-07-07 11:48,1st,Tool change,27
+254,CNC 1,Machining,2026-07-07 03:04,3rd,Preventive maintenance,118
+255,Press 2,Stamping,2026-07-07 16:54,2nd,Pneumatic leak,96
+256,Packager,Packaging,2026-07-07 13:51,1st,Jam,6
+257,Packager,Packaging,2026-07-07 06:46,1st,Jam,5
+258,CNC 2,Machining,2026-07-08 04:22,3rd,Preventive maintenance,104
+259,Press 2,Stamping,2026-07-08 13:26,1st,Preventive maintenance,71
+260,Press 3,Stamping,2026-07-08 04:28,3rd,Operator error,17
+261,Welder 1,Assembly,2026-07-08 08:11,1st,Operator error,22
+262,Welder 1,Assembly,2026-07-08 14:19,2nd,Material shortage,79
+263,Welder 1,Assembly,2026-07-08 21:09,2nd,Preventive maintenance,77
+264,CNC 1,Machining,2026-07-08 04:39,3rd,Preventive maintenance,109
+265,CNC 1,Machining,2026-07-09 06:15,1st,Jam,6
+266,Welder 1,Assembly,2026-07-09 16:14,2nd,Tool change,28
+267,Conveyor A,Assembly,2026-07-09 17:56,2nd,Preventive maintenance,69
+268,CNC 1,Machining,2026-07-09 20:03,2nd,Pneumatic leak,74
+269,Welder 1,Assembly,2026-07-10 00:19,3rd,Electrical fault,141
+270,Press 3,Stamping,2026-07-10 00:51,3rd,Tool change,24
+271,Press 1,Stamping,2026-07-10 20:16,2nd,Operator error,11
+272,Conveyor A,Assembly,2026-07-10 15:03,2nd,Operator error,13
+273,Welder 1,Assembly,2026-07-10 17:30,2nd,Tool change,16
+274,Conveyor A,Assembly,2026-07-10 09:47,1st,Operator error,29
+275,Packager,Packaging,2026-07-10 01:35,3rd,Material shortage,61
+276,CNC 2,Machining,2026-07-10 11:23,1st,Tool change,26
+277,Packager,Packaging,2026-07-10 19:23,2nd,Material shortage,60
+278,Press 1,Stamping,2026-07-11 14:35,2nd,Jam,23
+279,Welder 1,Assembly,2026-07-11 09:31,1st,Jam,22
+280,Conveyor A,Assembly,2026-07-11 13:46,1st,Preventive maintenance,110
+281,Conveyor A,Assembly,2026-07-11 13:33,1st,Material shortage,24
+282,Press 2,Stamping,2026-07-11 16:04,2nd,Material shortage,39
+283,Press 1,Stamping,2026-07-11 06:01,1st,Sensor failure,15
+284,Welder 1,Assembly,2026-07-11 10:32,1st,Tool change,23
+285,Press 2,Stamping,2026-07-12 19:50,2nd,Pneumatic leak,80
+286,Press 2,Stamping,2026-07-12 18:41,2nd,Sensor failure,56
+287,Press 1,Stamping,2026-07-12 13:44,1st,Electrical fault,88
+288,Press 2,Stamping,2026-07-12 14:13,2nd,Material shortage,80
+289,CNC 2,Machining,2026-07-12 10:59,1st,Jam,15
+290,CNC 1,Machining,2026-07-13 15:10,2nd,Material shortage,50
+291,Welder 1,Assembly,2026-07-13 16:32,2nd,Tool change,21
+292,Press 1,Stamping,2026-07-13 07:49,1st,Jam,15
+293,Press 1,Stamping,2026-07-13 21:22,2nd,Preventive maintenance,95
+294,Welder 1,Assembly,2026-07-14 12:51,1st,Tool change,17
+295,Press 2,Stamping,2026-07-14 08:23,1st,Tool change,13
+296,Press 2,Stamping,2026-07-14 10:05,1st,Pneumatic leak,53
+297,Welder 1,Assembly,2026-07-14 15:05,2nd,Tool change,21
+298,Press 2,Stamping,2026-07-14 04:24,3rd,Operator error,29
+299,Press 2,Stamping,2026-07-14 16:10,2nd,Operator error,9
+300,CNC 2,Machining,2026-07-14 07:17,1st,Tool change,23
+301,Packager,Packaging,2026-07-15 01:29,3rd,Jam,8
+302,Press 3,Stamping,2026-07-15 11:28,1st,Operator error,15
+303,Welder 1,Assembly,2026-07-15 03:38,3rd,Operator error,27
+304,CNC 1,Machining,2026-07-15 19:47,2nd,Jam,25
+305,Packager,Packaging,2026-07-15 02:52,3rd,Preventive maintenance,110
+306,Welder 1,Assembly,2026-07-15 09:46,1st,Operator error,19
+307,CNC 1,Machining,2026-07-16 20:08,2nd,Electrical fault,122
+308,CNC 1,Machining,2026-07-16 12:28,1st,Jam,24
+309,Packager,Packaging,2026-07-16 14:44,2nd,Pneumatic leak,98
+310,Press 2,Stamping,2026-07-16 08:48,1st,Tool change,20
+311,Welder 1,Assembly,2026-07-16 09:23,1st,Jam,17
+312,Packager,Packaging,2026-07-16 22:30,3rd,Tool change,13
+313,CNC 2,Machining,2026-07-16 16:19,2nd,Operator error,15
+314,Packager,Packaging,2026-07-16 23:28,3rd,Sensor failure,59
+315,Packager,Packaging,2026-07-16 07:41,1st,Jam,8
+316,Press 3,Stamping,2026-07-17 03:35,3rd,Operator error,18
+317,Packager,Packaging,2026-07-17 08:25,1st,Jam,5
+318,CNC 1,Machining,2026-07-17 17:17,2nd,Tool change,12
+319,Press 2,Stamping,2026-07-17 21:16,2nd,Pneumatic leak,115
+320,Packager,Packaging,2026-07-17 20:22,2nd,Sensor failure,37
+321,Packager,Packaging,2026-07-17 15:20,2nd,Material shortage,35
+322,CNC 1,Machining,2026-07-17 08:38,1st,Jam,9
+323,Welder 1,Assembly,2026-07-17 16:18,2nd,Sensor failure,23
+324,Press 3,Stamping,2026-07-17 06:31,1st,Sensor failure,23
+325,Welder 1,Assembly,2026-07-18 05:26,3rd,Tool change,24
+326,Packager,Packaging,2026-07-18 09:17,1st,Electrical fault,102
+327,CNC 2,Machining,2026-07-18 13:17,1st,Tool change,27
+328,Conveyor A,Assembly,2026-07-18 17:06,2nd,Material shortage,51
+329,CNC 2,Machining,2026-07-18 23:28,3rd,Jam,8
+330,CNC 1,Machining,2026-07-19 00:39,3rd,Tool change,14
+331,CNC 1,Machining,2026-07-19 00:20,3rd,Operator error,27
+332,CNC 2,Machining,2026-07-19 07:58,1st,Pneumatic leak,37
+333,CNC 2,Machining,2026-07-19 00:45,3rd,Jam,15
+334,CNC 1,Machining,2026-07-19 02:40,3rd,Preventive maintenance,86
+335,Packager,Packaging,2026-07-20 07:44,1st,Material shortage,67
+336,Packager,Packaging,2026-07-20 05:40,3rd,Jam,16
+337,Press 2,Stamping,2026-07-20 09:20,1st,Operator error,14
+338,Conveyor A,Assembly,2026-07-20 19:02,2nd,Jam,8
+339,Packager,Packaging,2026-07-20 08:00,1st,Operator error,18
+340,CNC 1,Machining,2026-07-20 02:05,3rd,Operator error,25
+341,Conveyor A,Assembly,2026-07-20 08:40,1st,Electrical fault,123
+342,CNC 1,Machining,2026-07-21 14:30,2nd,Jam,7
+343,Press 3,Stamping,2026-07-21 14:44,2nd,Tool change,20
+344,Press 2,Stamping,2026-07-21 17:05,2nd,Jam,8
+345,Press 2,Stamping,2026-07-21 23:33,3rd,Jam,23
+346,Press 1,Stamping,2026-07-21 17:58,2nd,Jam,18
+347,Packager,Packaging,2026-07-21 23:37,3rd,Jam,17
+348,Conveyor A,Assembly,2026-07-21 02:41,3rd,Electrical fault,66
+349,CNC 1,Machining,2026-07-21 14:13,2nd,Tool change,26
+350,CNC 1,Machining,2026-07-21 05:24,3rd,Sensor failure,22
+351,Packager,Packaging,2026-07-22 19:08,2nd,Jam,17
+352,Welder 1,Assembly,2026-07-22 13:37,1st,Material shortage,28
+353,Press 1,Stamping,2026-07-22 06:40,1st,Jam,21
+354,Welder 1,Assembly,2026-07-22 18:19,2nd,Sensor failure,20
+355,CNC 1,Machining,2026-07-22 23:19,3rd,Jam,18
+356,CNC 1,Machining,2026-07-23 12:39,1st,Jam,24
+357,Press 1,Stamping,2026-07-23 08:45,1st,Material shortage,37
+358,Press 1,Stamping,2026-07-23 10:08,1st,Operator error,28
+359,CNC 2,Machining,2026-07-23 04:17,3rd,Jam,21
+360,Press 2,Stamping,2026-07-23 03:03,3rd,Tool change,25
+361,Press 3,Stamping,2026-07-23 07:47,1st,Pneumatic leak,95
+362,Press 1,Stamping,2026-07-23 09:23,1st,Preventive maintenance,84
+363,Press 3,Stamping,2026-07-23 06:20,1st,Operator error,12
+364,Welder 1,Assembly,2026-07-23 23:32,3rd,Electrical fault,58
+365,CNC 1,Machining,2026-07-24 05:55,3rd,Operator error,14
+366,CNC 2,Machining,2026-07-24 06:18,1st,Tool change,28
+367,CNC 2,Machining,2026-07-24 01:46,3rd,Electrical fault,107
+368,Press 3,Stamping,2026-07-24 09:21,1st,Sensor failure,15
+369,Welder 1,Assembly,2026-07-24 01:26,3rd,Operator error,20
+370,Press 3,Stamping,2026-07-25 03:29,3rd,Jam,7
+371,Press 2,Stamping,2026-07-25 20:15,2nd,Pneumatic leak,67
+372,CNC 2,Machining,2026-07-25 03:28,3rd,Operator error,13
+373,CNC 1,Machining,2026-07-25 07:10,1st,Pneumatic leak,87
+374,Conveyor A,Assembly,2026-07-26 21:29,2nd,Tool change,18
+375,Press 2,Stamping,2026-07-26 03:09,3rd,Pneumatic leak,41
+376,CNC 1,Machining,2026-07-26 02:52,3rd,Tool change,15
+377,Press 1,Stamping,2026-07-26 05:06,3rd,Operator error,30
+378,Press 3,Stamping,2026-07-26 09:52,1st,Jam,17
+379,Conveyor A,Assembly,2026-07-26 18:01,2nd,Operator error,7
+380,CNC 1,Machining,2026-07-26 03:07,3rd,Tool change,11
+381,Press 1,Stamping,2026-07-27 12:24,1st,Tool change,23
+382,Press 3,Stamping,2026-07-27 10:56,1st,Operator error,9
+383,Press 1,Stamping,2026-07-27 21:56,2nd,Tool change,27
+384,Packager,Packaging,2026-07-27 08:41,1st,Jam,21
+385,CNC 1,Machining,2026-07-27 20:30,2nd,Preventive maintenance,94
+386,Packager,Packaging,2026-07-27 11:11,1st,Electrical fault,51
+387,Conveyor A,Assembly,2026-07-27 14:33,2nd,Jam,16
+388,CNC 1,Machining,2026-07-28 22:48,3rd,Jam,12
+389,Welder 1,Assembly,2026-07-28 08:37,1st,Preventive maintenance,80
+390,Conveyor A,Assembly,2026-07-28 01:53,3rd,Jam,20
+391,CNC 2,Machining,2026-07-28 06:01,1st,Jam,21
+392,Packager,Packaging,2026-07-28 09:45,1st,Preventive maintenance,71
+393,Conveyor A,Assembly,2026-07-28 08:04,1st,Jam,16
+394,Welder 1,Assembly,2026-07-28 16:46,2nd,Electrical fault,156
+395,Packager,Packaging,2026-07-28 17:24,2nd,Jam,14
+396,CNC 2,Machining,2026-07-29 12:38,1st,Material shortage,60
+397,CNC 1,Machining,2026-07-29 16:47,2nd,Jam,7
+398,CNC 1,Machining,2026-07-29 07:00,1st,Electrical fault,112
+399,CNC 1,Machining,2026-07-29 10:03,1st,Jam,17
+400,Packager,Packaging,2026-07-29 04:22,3rd,Operator error,22
+401,Welder 1,Assembly,2026-07-29 09:04,1st,Sensor failure,17
+402,CNC 2,Machining,2026-07-29 07:10,1st,Pneumatic leak,78
+403,Press 3,Stamping,2026-07-29 05:45,3rd,Material shortage,23
+404,Welder 1,Assembly,2026-07-29 22:06,3rd,Jam,15
+405,CNC 1,Machining,2026-07-30 18:15,2nd,Tool change,13
+406,Press 1,Stamping,2026-07-30 13:23,1st,Tool change,10
+407,Welder 1,Assembly,2026-07-30 13:01,1st,Preventive maintenance,73
+408,Press 3,Stamping,2026-07-30 15:50,2nd,Operator error,17
+409,Packager,Packaging,2026-07-30 20:23,2nd,Tool change,22
+410,Press 3,Stamping,2026-07-31 18:53,2nd,Pneumatic leak,64
+411,Press 1,Stamping,2026-07-31 07:51,1st,Material shortage,89
+412,Welder 1,Assembly,2026-07-31 04:34,3rd,Material shortage,80
+413,CNC 1,Machining,2026-07-31 16:48,2nd,Jam,19
+414,Press 3,Stamping,2026-07-31 00:02,3rd,Jam,18
+415,Press 2,Stamping,2026-07-31 18:58,2nd,Operator error,28
+416,Press 2,Stamping,2026-08-01 10:50,1st,Pneumatic leak,119
+417,Welder 1,Assembly,2026-08-01 07:50,1st,Jam,14
+418,Conveyor A,Assembly,2026-08-01 22:11,3rd,Pneumatic leak,65
+419,Welder 1,Assembly,2026-08-01 12:56,1st,Tool change,20
+420,CNC 1,Machining,2026-08-02 10:21,1st,Tool change,19
+421,CNC 2,Machining,2026-08-02 07:19,1st,Tool change,24
+422,Conveyor A,Assembly,2026-08-02 07:13,1st,Sensor failure,41
+423,Packager,Packaging,2026-08-02 23:19,3rd,Operator error,27
+424,Welder 1,Assembly,2026-08-02 06:56,1st,Preventive maintenance,113
+425,CNC 1,Machining,2026-08-02 03:45,3rd,Electrical fault,95
+426,CNC 2,Machining,2026-08-02 12:15,1st,Tool change,21
+427,Packager,Packaging,2026-08-02 19:10,2nd,Jam,13
+428,Press 2,Stamping,2026-08-02 09:43,1st,Jam,11
+429,Welder 1,Assembly,2026-08-03 21:41,2nd,Preventive maintenance,71
+430,Press 1,Stamping,2026-08-03 10:57,1st,Tool change,22
+431,Conveyor A,Assembly,2026-08-03 20:00,2nd,Jam,21
+432,Conveyor A,Assembly,2026-08-03 18:30,2nd,Tool change,12
+433,Conveyor A,Assembly,2026-08-03 02:12,3rd,Preventive maintenance,69
+434,CNC 1,Machining,2026-08-03 00:46,3rd,Operator error,5
+435,Packager,Packaging,2026-08-04 04:47,3rd,Jam,6
+436,CNC 1,Machining,2026-08-04 13:54,1st,Tool change,15
+437,Press 3,Stamping,2026-08-04 10:41,1st,Sensor failure,20
+438,CNC 1,Machining,2026-08-04 10:23,1st,Material shortage,53
+439,CNC 2,Machining,2026-08-04 15:56,2nd,Jam,11
+440,Press 2,Stamping,2026-08-04 06:12,1st,Pneumatic leak,73
+441,Welder 1,Assembly,2026-08-04 03:55,3rd,Operator error,27
+442,Press 3,Stamping,2026-08-04 22:00,3rd,Tool change,24
+443,CNC 2,Machining,2026-08-04 08:08,1st,Material shortage,75
+444,Welder 1,Assembly,2026-08-05 14:34,2nd,Operator error,11
+445,Conveyor A,Assembly,2026-08-05 22:40,3rd,Operator error,28
+446,CNC 1,Machining,2026-08-05 10:24,1st,Preventive maintenance,92
+447,CNC 2,Machining,2026-08-05 10:46,1st,Preventive maintenance,93
+448,Conveyor A,Assembly,2026-08-05 19:22,2nd,Material shortage,44
+449,Press 3,Stamping,2026-08-05 01:14,3rd,Operator error,28
+450,Press 3,Stamping,2026-08-05 08:45,1st,Jam,25
+451,Press 1,Stamping,2026-08-05 06:41,1st,Tool change,10
+452,Press 1,Stamping,2026-08-05 15:30,2nd,Sensor failure,59
+453,CNC 1,Machining,2026-08-06 20:42,2nd,Tool change,26
+454,CNC 2,Machining,2026-08-06 15:18,2nd,Tool change,13
+455,Press 2,Stamping,2026-08-06 19:18,2nd,Material shortage,40
+456,Press 1,Stamping,2026-08-06 19:00,2nd,Operator error,5
+457,Press 2,Stamping,2026-08-06 23:46,3rd,Material shortage,32
+458,CNC 1,Machining,2026-08-07 21:06,2nd,Operator error,10
+459,Press 1,Stamping,2026-08-07 23:06,3rd,Sensor failure,17
+460,Press 1,Stamping,2026-08-07 03:57,3rd,Preventive maintenance,88
+461,CNC 2,Machining,2026-08-07 23:25,3rd,Jam,17
+462,Packager,Packaging,2026-08-07 13:07,1st,Jam,9
+463,Press 1,Stamping,2026-08-07 05:51,3rd,Operator error,23
+464,Packager,Packaging,2026-08-08 11:30,1st,Jam,20
+465,Press 2,Stamping,2026-08-08 14:42,2nd,Jam,15
+466,Press 2,Stamping,2026-08-08 22:00,3rd,Sensor failure,56
+467,Press 3,Stamping,2026-08-08 16:48,2nd,Sensor failure,46
+468,Conveyor A,Assembly,2026-08-08 06:25,1st,Operator error,12
+469,Press 2,Stamping,2026-08-08 03:07,3rd,Electrical fault,172
+470,Press 1,Stamping,2026-08-08 06:56,1st,Sensor failure,47
+471,CNC 1,Machining,2026-08-08 19:52,2nd,Tool change,17
+472,Packager,Packaging,2026-08-08 13:07,1st,Tool change,13
+473,CNC 1,Machining,2026-08-09 10:02,1st,Sensor failure,25
+474,Packager,Packaging,2026-08-09 12:39,1st,Tool change,16
+475,CNC 1,Machining,2026-08-09 09:45,1st,Preventive maintenance,81
+476,Press 2,Stamping,2026-08-09 07:42,1st,Tool change,28
+477,Press 3,Stamping,2026-08-09 05:59,3rd,Jam,21
+478,Press 3,Stamping,2026-08-09 15:42,2nd,Jam,24
+479,Conveyor A,Assembly,2026-08-09 18:21,2nd,Electrical fault,120
+480,Packager,Packaging,2026-08-09 01:12,3rd,Jam,11
+481,CNC 2,Machining,2026-08-09 16:45,2nd,Operator error,8
+482,Packager,Packaging,2026-08-10 18:51,2nd,Operator error,5
+483,Press 2,Stamping,2026-08-10 09:18,1st,Tool change,18
+484,Press 3,Stamping,2026-08-10 22:22,3rd,Preventive maintenance,112
+485,Packager,Packaging,2026-08-10 09:32,1st,Preventive maintenance,110
+486,CNC 2,Machining,2026-08-10 20:50,2nd,Jam,15
+487,Press 1,Stamping,2026-08-10 13:48,1st,Pneumatic leak,105
+488,CNC 1,Machining,2026-08-11 00:43,3rd,Operator error,7
+489,Press 3,Stamping,2026-08-11 22:27,3rd,Operator error,13
+490,CNC 2,Machining,2026-08-11 10:29,1st,Tool change,14
+491,Press 1,Stamping,2026-08-11 06:50,1st,Pneumatic leak,103
+492,Conveyor A,Assembly,2026-08-11 09:50,1st,Material shortage,84
+493,Press 3,Stamping,2026-08-11 19:56,2nd,Tool change,16
+494,Conveyor A,Assembly,2026-08-11 13:42,1st,Pneumatic leak,74
+495,Packager,Packaging,2026-08-11 09:24,1st,Sensor failure,22
+496,CNC 2,Machining,2026-08-12 21:02,2nd,Electrical fault,120
+497,CNC 1,Machining,2026-08-12 07:40,1st,Jam,7
+498,CNC 1,Machining,2026-08-12 15:34,2nd,Material shortage,75
+499,Press 2,Stamping,2026-08-12 11:04,1st,Pneumatic leak,36
+500,Press 3,Stamping,2026-08-12 04:24,3rd,Material shortage,77
+501,Welder 1,Assembly,2026-08-12 14:48,2nd,Jam,23
+502,Press 1,Stamping,2026-08-12 02:38,3rd,Jam,7
+503,Packager,Packaging,2026-08-13 06:34,1st,Material shortage,48
+504,Press 3,Stamping,2026-08-13 02:43,3rd,Operator error,30
+505,Conveyor A,Assembly,2026-08-13 22:00,3rd,Jam,23
+506,Welder 1,Assembly,2026-08-13 17:13,2nd,Operator error,18
+507,Press 3,Stamping,2026-08-13 10:11,1st,Jam,23
+508,Press 1,Stamping,2026-08-13 02:42,3rd,Operator error,7
+509,Press 2,Stamping,2026-08-14 16:06,2nd,Operator error,14
+510,Press 2,Stamping,2026-08-14 10:51,1st,Pneumatic leak,70
+511,Welder 1,Assembly,2026-08-14 09:53,1st,Pneumatic leak,76
+512,Press 3,Stamping,2026-08-14 21:22,2nd,Electrical fault,123
+513,Packager,Packaging,2026-08-14 18:57,2nd,Jam,22
+514,CNC 1,Machining,2026-08-14 07:54,1st,Preventive maintenance,92
+515,Press 1,Stamping,2026-08-15 02:34,3rd,Material shortage,89
+516,Packager,Packaging,2026-08-15 17:08,2nd,Jam,19
+517,Press 2,Stamping,2026-08-15 16:10,2nd,Tool change,15
+518,Press 3,Stamping,2026-08-15 01:48,3rd,Tool change,25
+519,CNC 1,Machining,2026-08-15 06:24,1st,Sensor failure,45
+520,Packager,Packaging,2026-08-15 02:53,3rd,Jam,13
+521,Press 3,Stamping,2026-08-15 07:58,1st,Electrical fault,102
+522,Welder 1,Assembly,2026-08-15 13:32,1st,Preventive maintenance,116
+523,Press 3,Stamping,2026-08-15 17:11,2nd,Jam,10
+524,Press 2,Stamping,2026-08-16 21:30,2nd,Pneumatic leak,56
+525,Press 3,Stamping,2026-08-16 14:36,2nd,Sensor failure,52
+526,Press 3,Stamping,2026-08-16 08:16,1st,Tool change,15
+527,Welder 1,Assembly,2026-08-16 18:13,2nd,Tool change,24
+528,Packager,Packaging,2026-08-16 00:39,3rd,Jam,21
+529,CNC 2,Machining,2026-08-16 13:24,1st,Tool change,22
+530,Press 2,Stamping,2026-08-17 16:11,2nd,Preventive maintenance,90
+531,Press 1,Stamping,2026-08-17 05:42,3rd,Tool change,14
+532,Press 1,Stamping,2026-08-17 03:55,3rd,Operator error,6
+533,Welder 1,Assembly,2026-08-17 12:27,1st,Preventive maintenance,68
+534,CNC 2,Machining,2026-08-17 18:16,2nd,Pneumatic leak,54
+535,Press 1,Stamping,2026-08-18 20:44,2nd,Jam,15
+536,Welder 1,Assembly,2026-08-18 10:36,1st,Jam,16
+537,CNC 2,Machining,2026-08-18 05:11,3rd,Tool change,21
+538,Packager,Packaging,2026-08-18 11:54,1st,Jam,8
+539,CNC 1,Machining,2026-08-19 15:32,2nd,Tool change,22
+540,Conveyor A,Assembly,2026-08-19 04:40,3rd,Material shortage,20
+541,Press 2,Stamping,2026-08-19 15:14,2nd,Sensor failure,38
+542,Press 2,Stamping,2026-08-19 22:49,3rd,Operator error,10
+543,Packager,Packaging,2026-08-19 17:50,2nd,Jam,24
+544,CNC 1,Machining,2026-08-19 17:10,2nd,Tool change,12
+545,CNC 2,Machining,2026-08-19 01:33,3rd,Tool change,10
+546,Press 2,Stamping,2026-08-19 19:14,2nd,Tool change,29
+547,CNC 1,Machining,2026-08-19 18:26,2nd,Sensor failure,47
+548,Press 2,Stamping,2026-08-20 10:24,1st,Jam,23
+549,Packager,Packaging,2026-08-20 22:30,3rd,Preventive maintenance,67
+550,CNC 2,Machining,2026-08-20 09:26,1st,Tool change,21
+551,Press 1,Stamping,2026-08-20 04:43,3rd,Pneumatic leak,73
+552,Press 3,Stamping,2026-08-21 16:31,2nd,Electrical fault,96
+553,CNC 1,Machining,2026-08-21 01:53,3rd,Operator error,12
+554,Conveyor A,Assembly,2026-08-21 07:48,1st,Jam,22
+555,Press 1,Stamping,2026-08-21 02:31,3rd,Sensor failure,26
+556,CNC 2,Machining,2026-08-22 08:30,1st,Material shortage,89
+557,Press 1,Stamping,2026-08-22 21:44,2nd,Electrical fault,177
+558,Packager,Packaging,2026-08-22 09:20,1st,Jam,16
+559,CNC 2,Machining,2026-08-22 10:23,1st,Pneumatic leak,53
+560,Packager,Packaging,2026-08-22 19:17,2nd,Jam,19
+561,Press 3,Stamping,2026-08-22 15:51,2nd,Operator error,12
+562,Welder 1,Assembly,2026-08-22 22:11,3rd,Pneumatic leak,83
+563,Packager,Packaging,2026-08-22 11:16,1st,Preventive maintenance,95
+564,Press 1,Stamping,2026-08-23 06:30,1st,Material shortage,32
+565,Packager,Packaging,2026-08-23 03:01,3rd,Jam,18
+566,Press 2,Stamping,2026-08-23 18:20,2nd,Sensor failure,58
+567,Packager,Packaging,2026-08-23 02:29,3rd,Pneumatic leak,110
+568,Press 3,Stamping,2026-08-23 04:54,3rd,Preventive maintenance,118
+569,Press 2,Stamping,2026-08-23 10:17,1st,Pneumatic leak,86
+570,Conveyor A,Assembly,2026-08-23 00:11,3rd,Tool change,10
+571,Press 3,Stamping,2026-08-23 00:25,3rd,Preventive maintenance,66
+572,Press 2,Stamping,2026-08-24 15:16,2nd,Jam,24
+573,Press 3,Stamping,2026-08-24 12:15,1st,Operator error,28
+574,CNC 2,Machining,2026-08-24 14:42,2nd,Jam,16
+575,Conveyor A,Assembly,2026-08-24 00:44,3rd,Tool change,27
+576,Packager,Packaging,2026-08-25 18:30,2nd,Sensor failure,49
+577,CNC 1,Machining,2026-08-25 02:09,3rd,Tool change,19
+578,Press 1,Stamping,2026-08-25 08:30,1st,Preventive maintenance,94
+579,Press 1,Stamping,2026-08-25 18:49,2nd,Sensor failure,42
+580,CNC 2,Machining,2026-08-25 17:56,2nd,Material shortage,75
+581,CNC 1,Machining,2026-08-26 12:16,1st,Material shortage,30
+582,Welder 1,Assembly,2026-08-26 18:26,2nd,Tool change,16
+583,Press 2,Stamping,2026-08-26 13:12,1st,Tool change,20
+584,Press 1,Stamping,2026-08-26 06:18,1st,Operator error,13
+585,Press 3,Stamping,2026-08-26 00:00,3rd,Operator error,20
+586,CNC 1,Machining,2026-08-26 13:44,1st,Electrical fault,53
+587,Conveyor A,Assembly,2026-08-26 08:49,1st,Material shortage,70
+588,Packager,Packaging,2026-08-27 10:07,1st,Preventive maintenance,109
+589,CNC 1,Machining,2026-08-27 09:29,1st,Operator error,28
+590,Press 2,Stamping,2026-08-27 00:40,3rd,Electrical fault,55
+591,Press 2,Stamping,2026-08-27 17:15,2nd,Pneumatic leak,111
+592,Conveyor A,Assembly,2026-08-28 07:00,1st,Preventive maintenance,62
+593,Packager,Packaging,2026-08-28 17:31,2nd,Jam,7
+594,Conveyor A,Assembly,2026-08-28 03:41,3rd,Operator error,9
+595,Press 2,Stamping,2026-08-28 11:01,1st,Operator error,27
+596,Welder 1,Assembly,2026-08-28 06:35,1st,Jam,14
+597,Packager,Packaging,2026-08-28 11:17,1st,Jam,24
+598,Press 3,Stamping,2026-08-28 10:29,1st,Jam,5
+599,Welder 1,Assembly,2026-08-29 03:46,3rd,Operator error,7
+600,Welder 1,Assembly,2026-08-29 08:26,1st,Material shortage,61
+601,Press 2,Stamping,2026-08-29 16:12,2nd,Jam,8
+602,Packager,Packaging,2026-08-29 12:03,1st,Jam,16
+603,CNC 1,Machining,2026-08-29 21:29,2nd,Jam,25
+604,Press 1,Stamping,2026-08-29 12:52,1st,Material shortage,54
+605,Press 1,Stamping,2026-08-29 23:06,3rd,Operator error,28
+606,CNC 1,Machining,2026-08-29 16:47,2nd,Jam,8
+607,Conveyor A,Assembly,2026-08-29 15:50,2nd,Material shortage,43
+608,Welder 1,Assembly,2026-08-30 19:35,2nd,Tool change,20
+609,Conveyor A,Assembly,2026-08-30 17:24,2nd,Tool change,27
+610,CNC 2,Machining,2026-08-30 12:18,1st,Tool change,29
+611,Press 1,Stamping,2026-08-30 14:14,2nd,Operator error,11
+612,Conveyor A,Assembly,2026-08-30 10:02,1st,Preventive maintenance,89
+613,Conveyor A,Assembly,2026-08-30 09:51,1st,Pneumatic leak,68
+614,Press 2,Stamping,2026-08-30 19:11,2nd,Pneumatic leak,92
+615,Press 2,Stamping,2026-08-30 12:58,1st,Tool change,20
+616,Welder 1,Assembly,2026-08-31 14:03,2nd,Preventive maintenance,79
+617,Press 1,Stamping,2026-08-31 11:03,1st,Tool change,22
+618,Packager,Packaging,2026-08-31 04:18,3rd,Tool change,22
+619,Press 3,Stamping,2026-08-31 06:05,1st,Jam,17
+620,Welder 1,Assembly,2026-08-31 01:31,3rd,Jam,17
+621,CNC 1,Machining,2026-08-31 17:17,2nd,Operator error,29
