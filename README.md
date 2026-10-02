@@ -10,6 +10,12 @@ Analysis of three months of machine downtime at a manufacturing plant, answering
 
 Reducing pneumatic leaks with special attention to Press 2, and looking into 3rd shift errors would recover the most downtime for the plant.
 
+## Interactive Dashboard (Power BI)
+
+![Power BI dashboard](dashboard_powerbi.png)
+
+Built in Power BI Desktop with DAX measures (`CALCULATE`, `DIVIDE`) for total, unplanned, and operator-error metrics. Machine and shift slicers let a manager filter every visual at once. The file is `downtime_dashboard.pbix`.
+
 ## Findings
 
 ### 1. Pneumatic leaks are the largest source of unplanned downtime
