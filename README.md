@@ -16,6 +16,14 @@ Reducing pneumatic leaks with special attention to Press 2, and looking into 3rd
 
 Built in Power BI Desktop with DAX measures (`CALCULATE`, `DIVIDE`) for total, unplanned, and operator-error metrics. Machine and shift slicers let a manager filter every visual at once. The file is `downtime_dashboard.pbix`.
 
+## Interactive Dashboard (Tableau)
+
+**[View the live dashboard on Tableau Public](PASTE-YOUR-LINK-HERE)**
+
+![Tableau dashboard](dashboard_tableau.png)
+
+The same dashboard rebuilt in Tableau, with calculated fields for planned vs. unplanned downtime and operator-error rate. Machine and shift filters apply to every sheet.
+
 ## Findings
 
 ### 1. Pneumatic leaks are the largest source of unplanned downtime
