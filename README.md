@@ -18,7 +18,7 @@ Built in Power BI Desktop with DAX measures (`CALCULATE`, `DIVIDE`) for total, u
 
 ## Interactive Dashboard (Tableau)
 
-**[View the live dashboard on Tableau Public](PASTE-YOUR-LINK-HERE)**
+**[View the live dashboard on Tableau Public](https://public.tableau.com/views/MachineDowntimeDashboard_17909849033230/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ![Tableau dashboard](dashboard_tableau.png)
 
